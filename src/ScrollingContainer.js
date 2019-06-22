@@ -1,3 +1,4 @@
+const PIXI = require('pixi.js');
 var UIBase = require('./UIBase'),
     Container = require('./Container'),
     Helpers = require('./Helpers'),
@@ -16,8 +17,8 @@ var UIBase = require('./UIBase'),
  * @param [options.scrollY=false] {Boolean} Enable vertical scrolling
  * @param [options.dragScrolling=true] {Boolean} Enable mousedrag scrolling
  * @param [options.softness=0.5] {Number} (0-1) softness of scrolling
- * @param [options.width=0] {Number|String} container width 
- * @param [options.height=0] {Number} container height 
+ * @param [options.width=0] {Number|String} container width
+ * @param [options.height=0] {Number} container height
  * @param [options.radius=0] {Number} corner radius of clipping mask
  * @param [options.expandMask=0] {Number} mask expand (px)
  * @param [options.overflowY=0] {Number} how much can be scrolled past content dimensions
@@ -307,7 +308,3 @@ ScrollingContainer.prototype.initScrolling = function () {
 
 
 };
-
-
-
-

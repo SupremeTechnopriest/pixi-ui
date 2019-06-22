@@ -1,3 +1,4 @@
+const PIXI = require('pixi.js');
 var Tween = require('./Tween');
 
 function Ticker(autoStart) {

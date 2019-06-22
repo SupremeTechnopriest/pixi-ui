@@ -1,3 +1,4 @@
+const PIXI = require('pixi.js');
 var InputBase = require('./InputBase'),
     ClickEvent = require('./Interaction/ClickEvent.js'),
     InputController = require('./Interaction/InputController');
@@ -39,7 +40,7 @@ function Button(options) {
     }
 
     this.container.buttonMode = true;
-   
+
 
     var self = this;
     //var keyDownEvent = function (e) {
@@ -134,15 +135,15 @@ Object.defineProperties(Button.prototype, {
 /*
  * Features:
  * Button, radio button (checkgroups)
- * 
+ *
  * Methods:
  * blur()
  * focus()
- * 
+ *
  * Properties:
  * checked: get/set Button checked
  * value: get/set Button value
- * 
+ *
  * Events:
  * "hover"          param: [bool]isHover (hover/leave)
  * "press"          param: [bool]isPressed (pointerdown/pointerup)
@@ -150,5 +151,5 @@ Object.defineProperties(Button.prototype, {
  * "blur"
  * "focus"
  * "focusChanged"   param: [bool]isFocussed
- *  
+ *
  */

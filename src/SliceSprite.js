@@ -1,3 +1,4 @@
+const PIXI = require('pixi.js');
 var UIBase = require('./UIBase');
 
 /**
@@ -131,6 +132,3 @@ function SliceSprite(texture, borderWidth, horizontalSlice, verticalSlice, tile)
 SliceSprite.prototype = Object.create(UIBase.prototype);
 SliceSprite.prototype.constructor = SliceSprite;
 module.exports = SliceSprite;
-
-
-

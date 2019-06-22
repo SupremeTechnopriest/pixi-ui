@@ -1,3 +1,4 @@
+const PIXI = require('pixi.js');
 var UIBase = require('./UIBase');
 
 /**

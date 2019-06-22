@@ -1,3 +1,4 @@
+const PIXI = require('pixi.js');
 var InputBase = require('./InputBase'),
     ClickEvent = require('./Interaction/ClickEvent.js'),
     InputController = require('./Interaction/InputController');
@@ -122,8 +123,8 @@ Object.defineProperties(CheckBox.prototype, {
                     InputController.updateCheckGroupSelected(this);
 
 
-                
-                
+
+
                 this._checked = val;
                 this.change(val);
 
@@ -155,17 +156,17 @@ Object.defineProperties(CheckBox.prototype, {
 /*
  * Features:
  * checkbox, radio button (checkgroups)
- * 
+ *
  * Methods:
  * blur()
  * focus()
- * change(checked) //only exposed to overwrite (if you dont want to hard toggle alpha of checkmark) 
- * 
+ * change(checked) //only exposed to overwrite (if you dont want to hard toggle alpha of checkmark)
+ *
  * Properties:
  * checked: get/set checkbox checked
  * value: get/set checkbox value
  * selectedValue: get/set selected value for checkgroup
- * 
+ *
  * Events:
  * "hover"          param: [bool]isHover (hover/leave)
  * "press"          param: [bool]isPressed (pointerdown/pointerup)
@@ -174,5 +175,5 @@ Object.defineProperties(CheckBox.prototype, {
  * "focus"
  * "focusChanged"   param: [bool]isFocussed
  * "change"         param: [bool]isChecked
- *  
+ *
  */

@@ -19,7 +19,7 @@
     Ease: require('./Ease/Ease'),
     Interaction: require('./Interaction/Interaction'),
     Base: require('./UIBase'),
-    Ticker: require('./Ticker').shared,
+    Ticker: require('./Ticker').shared
 };
 
 

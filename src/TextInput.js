@@ -1,3 +1,4 @@
+const PIXI = require('pixi.js');
 var InputBase = require('./InputBase'),
     Container = require('./Container'),
     DragEvent = require('./Interaction/DragEvent');
@@ -130,7 +131,7 @@ function TextInput(options) {
 
         }
 
-        //update text        
+        //update text
         if (this._dirtyText) {
             updateText();
             this._dirtyText = false;
@@ -872,16 +873,16 @@ Object.defineProperties(TextInput.prototype, {
 /*
  * Features:
  * multiLine, shift selection, Mouse Selection, Cut, Copy, Paste, Delete, Backspace, Arrow navigation, tabIndex
- * 
+ *
  * Methods:
  * blur()
  * focus()
  * select() - selects all text
  * selectRange(startIndex, endIndex)
- * clearSelection() 
+ * clearSelection()
  * setCaretIndex(index) moves caret to index
- * 
- * 
+ *
+ *
  * Events:
  * "change"
  * "blur"

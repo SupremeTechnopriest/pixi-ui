@@ -1,3 +1,4 @@
+const PIXI = require('pixi.js');
 var UIBase = require('./UIBase');
 
 /**
@@ -42,4 +43,3 @@ Sprite.prototype.update = function () {
     this.sprite.width = this._width;
     this.sprite.height = this._height;
 };
-

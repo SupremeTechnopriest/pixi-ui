@@ -1,3 +1,4 @@
+const PIXI = require('pixi.js');
 var UIBase = require('./UIBase');
 
 /**
@@ -26,4 +27,3 @@ Container.prototype.update = function () {
         this.container.hitArea.height = this._height;
     //}
 };
-

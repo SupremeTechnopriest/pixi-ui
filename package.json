@@ -35,7 +35,8 @@
   ],
   "dependencies": {
     "emoji-regex": "6.4.2",
-    "glslify": "^5.0.2"
+    "glslify": "^5.0.2",
+    "pixi.js": "^5.0.4"
   },
   "devDependencies": {
     "browserify-versionify": "^1.0.6",
