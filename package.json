@@ -34,6 +34,7 @@
     "README.md"
   ],
   "dependencies": {
+    "emoji-regex": "6.4.2",
     "glslify": "^5.0.2"
   },
   "devDependencies": {
@@ -49,8 +50,7 @@
     "parallelshell": "^2.0.0",
     "pixify": "^1.4.0",
     "rimraf": "^2.5.3",
-    "watch": "^0.19.1",
-    "emoji-regex": "6.4.2"
+    "watch": "^0.19.1"
   },
   "browserify": {
     "transform": [
